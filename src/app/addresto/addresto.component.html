@@ -1,0 +1,33 @@
+
+<h1 class="text-center"> Add New Restaurant</h1><br><br>
+
+<div *ngIf="alert" class="alert alert-success alert-dismissible fade show" role="alert">
+  <strong>Success!</strong> Your Data has been Added.
+  <button (click)="closeAlert()" type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>
+
+<form  [formGroup]="addRestro" class=" container-fluid h-100 bg-light text-dark " (ngSubmit)="collectRestro()">
+  <div class="row justify-content-center align-items-center">
+  <div class="mb-3 border border-0">
+    <label for="exampleInputText1" class="form-label ">Name</label>
+    <input type="text" class="form-control" formControlName="name" placeholder="Enter Name"  required>
+
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputText1" class="form-label">Address</label>
+    <input type="text" class="form-control" formControlName="address" placeholder="Enter Address" required>
+  </div>
+
+<div class="mb-3">
+  <label for="exampleInputText1" class="form-label">Email</label>
+  <input type="text" class="form-control" formControlName="email" placeholder="Enter Email" required>
+</div>
+</div>
+<div class=" justify-content-center">
+  <button name="submit" type="submit" class=" btn btn-primary ">Submit</button>
+  </div>
+
+</form>
+<footer>
+  <p class="color">Register your restaurant with us</p>
+</footer>

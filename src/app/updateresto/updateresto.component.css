@@ -1,0 +1,13 @@
+.color{
+  color: white;
+  }
+
+  footer{
+    background-color: #35659c;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    left:0;
+  width: 100%;
+
+  }

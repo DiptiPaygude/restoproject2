@@ -1,0 +1,78 @@
+{
+  "restaurants": [
+    {
+      "name": "abcefghi",
+      "address": "pune",
+      "email": "abc@gmail.com",
+      "id": 1
+    },
+    {
+      "name": "dipak restuarant",
+      "address": "pune",
+      "email": "dip@gmail.com",
+      "id": 3
+    },
+    {
+      "name": "shivam verma",
+      "address": "balewadi",
+      "email": "Shiv@gmail.com",
+      "id": 4
+    },
+    {
+      "name": "Saniya restaurant",
+      "address": "Mandvi",
+      "email": "sanu@gmail.com",
+      "id": 5
+    },
+    {
+      "name": "jsdfkuhds",
+      "address": "uahdsfg",
+      "email": "dcjhxb@gmail.com",
+      "id": 6
+    },
+    {
+      "name": "sai restuarant",
+      "address": "sai entrprises",
+      "email": "sai@gmail.com",
+      "id": 7
+    }
+  ],
+  "user": [
+    {
+      "id": 1,
+      "name": "abcefghi",
+      "email": "abc@gmail.com",
+      "password": "pune"
+    },
+    {
+      "name": "hghf",
+      "email": "hgff@gmail.com",
+      "password": "1223",
+      "id": 2
+    },
+    {
+      "name": "DIpti",
+      "email": "dip@gmail.com",
+      "password": "12345",
+      "id": 3
+    },
+    {
+      "name": "aditi",
+      "email": "aditi@gmail.com",
+      "password": "1234567",
+      "id": 4
+    },
+    {
+      "name": "saniya",
+      "email": "sani@gmail.com",
+      "password": "120",
+      "id": 5
+    },
+    {
+      "name": "shivam verma",
+      "email": "shiv@gmail.com",
+      "password": "123456",
+      "id": 6
+    }
+  ]
+}
